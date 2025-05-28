@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: navajowhite;
+    text-align: center;
+    
+
+}
+
+h1{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    /* background-color: azure; */
+    /* align-items: center; */
+    height: 70vh;
+    /* display: flex; */
+    justify-items: center;
+    align-items: center;
+    /* width: 65vh; */
+    border-radius: 1rem;
+    /* margin-right: 100px;
+    margin-left: 550px; */
+    
+    
+
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vh;
+    width: 18vh;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0,0,1rem rgba(0, 0, 0, 1);
+    font-size: 8vmin;
+    color: rgb(95, 172, 112);
+    background-color: rgb(209, 195, 195) ;
+
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.20rem;
+    color:rgb(95, 172, 112) ;
+    border-radius: 1rem;
+    border: none;
+    width: 18vh;
+    height: 10vh ;
+    align-items: center;
+    margin-top: -100px;
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1.20rem;
+    color:rgb(95, 172, 112) ;
+    border-radius: 1rem;
+    border: none;
+    width: 18vh;
+    height: 10vh ;
+}
+
+#msg{
+    color: rgb(209, 195, 195);
+    font-size: 6vmin;
+    justify-content: center;
+    align-items: center;
+    margin-top: 500;
+    
+
+
+}
+.msg-container{
+    justify-content: center;
+    align-items: center;
+    height: 100vmin;
+    text-align: center;
+    margin-top: 320px;
+    
+}
+
+.hide{
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
